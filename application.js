@@ -89,7 +89,6 @@ function displayGoogleMap(position) {
               location + "&zoom=" + zoomLevel +
               "&size=250x250&maptype=" + mapType + "&markers=color:red|label:P|" + 
               location + "&sensor=false";
-			debug.log(mapPath);
               
   document.getElementById("static_map").src = mapPath;
 }
